@@ -46,7 +46,7 @@ Acesse o link https://code.visualstudio.com/ e realize o download e instalaçao 
 4. Dentro desta pasta, abra um tela do terminal
 5. Volte a tela de seu repositório que foi realizado o fork e clique no botao verde **CODE**.
 6. Copie o endereço
-7. Execute o comando a seguir para baixar o projeto para sua máquina: (Lembrando que seu username do git deve estar no lugar de _seuUsuario_)              **git clone https://github.com/seuUsuario/pilotoCypressSyscorOfficial.git**
+7. Execute o comando a seguir para baixar o projeto para sua máquina: (Lembrando que seu username do git deve estar no lugar de _seuUsuario_)              **git clone https://github.com/humbertogouveiabefore/pilotoCypressGemobile.git**
 8. Abra o seu VSCode, clique em "arquivo", em seguida "abrir pasta" e abra a pasta que com o nome do projeto que foi clonado
 9. Abra o terminal integrado do VSCode e execute o comando **ls** para validar que os arquivos estão presentes.
 
@@ -58,6 +58,20 @@ quina. Por isso vamos executar os passos:
 1. No terminal do VsCode execute o comando _pwd_ para validar que esta na pasta do projeto
 2. Execute o comando: **Npm i**
 3. Aguarde todas as nossas ferramentas serem instaladas com sucesso
+4. Execuite no terminal o comando **npx cypress open** para abrir a interface do cypress
+5. Caso aconteça algum errro informando que o cypress não está instalado, execute o comando **npm i cypress -d** para re-instalar
+6. Execute novamente o comando **npx cypress open**
+
+**Incluindo seus dados de acesso na automaçao**
+
+Para incluir os dados de acesso do seu usuário:
+1. Copie todo o conteúdo do arquivo cypress.example.json e colar dentro do arquivo cypress.json
+2. Insira seus dados de acesso dentro das " " do CYPRESS_EMAIL, CYPRESS_SENHA, CYPRESS_USER_NAME
+3. Dentro do VScode clique em Arquivo > Salvar tudo
+
+Pronto! Agora onde existir dentro do código, o valor da variável que você colocou aqui será utilizado.
+
+Top não?
 
 **Executando com Runner do Cypress**
 
@@ -80,3 +94,5 @@ Aqui os testes não possuirao interface grafica.
 🚀
 
 </p>
+
+Boa automaçao!
