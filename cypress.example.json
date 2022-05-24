@@ -1,0 +1,16 @@
+{
+  "baseUrl": "",
+  "testFiles": "**/*.feature",
+  "chromeWebSecurity": false,
+  "modifyObstructiveCode": true,
+  "viewportWidth": 1024,
+  "viewportHeight": 768,
+  "requestTimeout": 30000,
+  "projectId": "",
+  "env": {
+    "CYPRESS_URL_PAGINA_LOGADO": "",
+    "CYPRESS_EMAIL": "",
+    "CYPRESS_SENHA": "",
+    "CYPRESS_USER_NAME": ""
+  }
+}
