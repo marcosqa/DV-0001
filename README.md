@@ -95,4 +95,4 @@ Aqui os testes não possuirao interface grafica.
 
 </p>
 
-Boa automaçao!
+Boa automação!
