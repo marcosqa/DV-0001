@@ -1,0 +1,22 @@
+{
+    "baseUrl": "https://gemobile-beta.before.com.br/app/",
+    "testFiles": "**/*.feature",
+    "chromeWebSecurity": false,
+    "modifyObstructiveCode": true,
+    "viewportWidth": 1024,
+    "viewportHeight": 768,
+    "requestTimeout": 30000,
+    "projectId": "",
+    "env": {
+      "CYPRESS_EMAIL": "humberto.before",
+      "CYPRESS_SENHA": "venus2022",
+      "CYPRESS_USER_NAME": "HUMBERTO GOUVEIA",
+      "CYPRESS_FILIAL": "ICELL",
+      "CYPRESS_FILIAL_RECEBIMENTO": "ICELL",
+      "CYPRESS_FORNECEDOR_1": "02.421.421/0127-13 - TIM S/A (Gera Price)",
+      "CYPRESS_CARACTERES_INICIAIS_DE_MODELO_DE_ACESSORIO": "6418 ",
+      "CYPRESS_MODELO_ACESSORIO": "6418 - CASE METALICA PARA APPLE WATCH 40MM PRATA"
+
+    }
+  }
+  

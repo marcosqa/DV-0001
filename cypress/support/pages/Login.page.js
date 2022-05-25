@@ -1,5 +1,5 @@
 import faker from '@faker-js/faker'
-import LoginElements from '../../elements/login/LoginElements'
+import LoginElements from '../elements/login/LoginElements'
 class LoginPage {
 
     static acessarPaginaDeLogin() {

@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import LoginPage from '../../pages/login/Login.page'
+import LoginPage from '../../pages/Login.page'
 
 Given(/^que acesso a página de Login$/, () => {
     LoginPage.acessarPaginaDeLogin()
