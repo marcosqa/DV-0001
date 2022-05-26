@@ -1,5 +1,6 @@
 import CompraElements from '../elements/compra/CompraElements'
 import HomePageElements from '../elements/homePage/HomePageElements'
+
 class CompraPage {
 
     static acessarModuloDeCompra() {
