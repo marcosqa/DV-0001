@@ -1,0 +1,18 @@
+name: Disparo Manual Cypress Gemobile Test
+'on':
+    workflow_dispatch:  
+jobs:
+
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: UI Cypress Teste Syscor BETA
+        uses: actions/checkout@v2
+      - name: Install node
+        uses: actions/setup-node@v2
+        with:
+            node:version: '14'
+      - name: Instalar Dependencias
+        run: npm install       
+      - name: Executar Teste Syscor UI
+        run: "npx cypress run --browser chrome"
