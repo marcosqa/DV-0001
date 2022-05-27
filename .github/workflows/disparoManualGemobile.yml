@@ -6,7 +6,7 @@ jobs:
   cypress-run:
     runs-on: ubuntu-latest
     steps: 
-      - name: UI Cypress Teste Syscor BETA
+      - name: UI Cypress Teste Gemobile BETA
         uses: actions/checkout@v2
       - name: Install node
         uses: actions/setup-node@v2
