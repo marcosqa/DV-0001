@@ -46,7 +46,7 @@ Acesse o link https://code.visualstudio.com/ e realize o download e instalaçao 
 4. Dentro desta pasta, abra um tela do terminal
 5. Volte a tela de seu repositório que foi realizado o fork e clique no botao verde **CODE**.
 6. Copie o endereço
-7. Execute o comando a seguir para baixar o projeto para sua máquina: (Lembrando que seu username do git deve estar no lugar de _seuUsuario_)              **git clone https://github.com/humbertogouveiabefore/pilotoCypressGemobile.git**
+7. Execute o comando a seguir para baixar o projeto para sua máquina: (Lembrando que seu username do git deve estar no lugar de _seuUsuario_)              **git clone https://github.com/marcosqa/DV-0001.git**
 8. Abra o seu VSCode, clique em "arquivo", em seguida "abrir pasta" e abra a pasta que com o nome do projeto que foi clonado
 9. Abra o terminal integrado do VSCode e execute o comando **ls** para validar que os arquivos estão presentes.
 
