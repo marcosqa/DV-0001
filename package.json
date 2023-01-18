@@ -1,0 +1,25 @@
+{
+  "name": "syscor-cypress-refactor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "test:local desktop": "cypress run  --browser chrome --config baseUrl=http://localhost:8080/",
+    "test:beta desktop": "cypress run  --browser chrome --config baseUrl=https://gemobile-beta.before.com.br/app/",
+    "test:local mobile": "cypress run --config viewportWidth=767,viewportHeight=480  --browser chrome  --config baseUrl=http://localhost:8080/",
+    "test:beta mobile": "cypress run --config viewportWidth=767,viewportHeight=480  --browser chrome --config baseUrl=https://"
+  },
+  "author": "Marcos Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^6.0.0",
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-iframe": "^1.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/support/steps/**"
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+  "baseUrl": "https://www.saucedemo.com/",
+  "testFiles": "**/*.feature",
+  "chromeWebSecurity": false,
+  "modifyObstructiveCode": true,
+  "viewportWidth": 1024,
+  "viewportHeight": 768,
+  "requestTimeout": 30000,
+  "projectId": "",
+  "env": {
+    "CYPRESS_EMAIL": "standard_user",
+    "CYPRESS_SENHA": "secret_sauce"
+  }
+}
